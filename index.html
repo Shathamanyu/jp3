@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-7</title>
+  </head>
+  <body>
+    <script>
+      var e = prompt("Enter a Number:");
+      if (e % 2 == 0) {
+        alert("Even");
+        console.log("Even");
+      } else {
+        alert("Odd");
+        console.log("Odd");
+      }
+
+      var s1 = prompt("Enter a Number(1st):");
+      var s2 = prompt("Enter a Number(2nd):");
+
+      if (s1 < s2) {
+        alert(`${s1} less then ${s2}`);
+        console.log("less then");
+      } else if (s1 > s2) {
+        alert(`${s1} greater then ${s2}`);
+        console.log("greater");
+      } else {
+        alert(`${s1} is Equal to ${s2}`);
+        console.log("equal");
+      }
+
+      var dr = prompt("Enter a Age:");
+      var dr1 = prompt("Enter any one 'true/false':");
+
+      if (dr >= 18) {
+        if (dr1 == "true") {
+          alert(`Age is ${dr} above 18 and can drive`);
+          console.log("can drive");
+        } else {
+          alert(
+            `Age is ${dr} below 18 and and didn't have Driving license so can't drive`
+          );
+          console.log("can't drive");
+        }
+      } else {
+        alert(`Age is ${dr} below 18 and and so can't drive`);
+        console.log("can't Drive");
+      }
+
+      var eon = prompt("Enter a number:");
+      if (eon > 0) {
+        alert(`${eon} is Positive.`);
+        console.log("positive");
+      }
+      else if (eon < 0) {
+        alert(`${eon} is Negative.`);
+        console.log("negative");
+      }
+      else{
+        alert(`${eon} is Zero.`);
+        console.log("zero");
+      }
+    </script>
+  </body>
+</html>
